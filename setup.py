@@ -63,6 +63,7 @@ setup(
     install_requires=[
         'Django>=1.4.13',
         'djangorestframework>=2.3.6',
+        'South>=0.8.1',
     ],
 
     # If there are data files included in your packages that need to be
