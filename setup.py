@@ -27,7 +27,7 @@ setup(
     author_email='matthew@againfaster.com',
 
     # Choose your license
-    # license='MIT',
+    license='BSD',
 
     # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
@@ -42,7 +42,7 @@ setup(
         # 'Topic :: Software Development :: Build Tools',
 
         # Pick your license as you wish (should match "license" above)
-        # 'License :: OSI Approved :: MIT License',
+        'License :: OSI Approved :: BSD License',
 
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
