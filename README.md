@@ -7,6 +7,7 @@ WombatToken model that maps to a Django User model.
 To use:
 
 1) Clone this github repository, or install the package by using PIP:
+
     pip -e git+https://github.com/AgainFaster/django-wombat-authenticator.git#egg=django-wombat-authenticator
 
 2) Add wombat_authenticator to INSTALLED_APPS in the settings.py file of your project.
@@ -35,6 +36,7 @@ For example:
     }
 
 4) Run the wombat_authenticator migration by running the South command:
+
     ./manage.py migrate wombat_authenticator
 
 5) Create a WombatToken model in the admin. Provide the Store and Token values from Wombat and choose a Django User.
